@@ -1,0 +1,21 @@
+{
+  "name": "scan",
+  "version": "0.1.0",
+  "description": "A super simple port & service scanner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "shamus": "./bin/shamus.js"
+  },
+  "author": "brad walker",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "prettyjson": "2.2.0",
+    "commander": "1.0.0"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
