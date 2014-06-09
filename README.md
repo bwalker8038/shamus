@@ -16,11 +16,11 @@ Shamus will return a json object with informatio about the port
 ```json
 {
   "connection": {
-    hostname: "scanme.nmap.org",
-    address: "129.168.1.1",
-    family: "IPv4"
-    port: 80,
-    status: "open"
+    "hostname": "scanme.nmap.org",
+    "address": "129.168.1.1",
+    "family": "IPv4"
+    "port": 80,
+    "status": "open"
   },
   "service":
     "software": [
