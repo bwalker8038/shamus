@@ -15,16 +15,16 @@ To scan a port, run the following:
 Shamus will return a json object with informatio about the port
 ```json
 {
-  connection: {
-    hostname: 'scanme.nmap.org',
-    address: '129.168.1.1',
-    family: 'IPv4'
+  "connection": {
+    hostname: "scanme.nmap.org",
+    address: "129.168.1.1",
+    family: "IPv4"
     port: 80,
-    status: 'open'
+    status: "open"
   },
-  service:
-    software: [
-      'Apache/2.2.14 (Ubuntu)'
+  "service":
+    "software": [
+      "Apache/2.2.14 (Ubuntu)"
     ]
 }
 ```
